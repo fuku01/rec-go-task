@@ -15,6 +15,8 @@ make tag
 
 </details>
 
+　
+
 ## FizzBuzz
 https://go.dev/play/p/3GXcGBC4vp0
 ### 動作確認
@@ -129,6 +131,8 @@ Buzz
 ```
 
 </details>
+
+　
 
 ## 123でビンゴ！
 https://go.dev/play/p/-iQaJfSpK3X
