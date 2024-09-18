@@ -1,7 +1,9 @@
 # 課題回答用のレポジトリ
 
 ## タグ整理
-https://go.dev/play/p/fqcUmqsAiHR
+### Playground
+- 課題：https://go.dev/play/p/fqcUmqsAiHR
+- 回答：https://go.dev/play/p/qQ_G4f1KfkY
 ### 動作確認
 ```
 make tag
@@ -18,7 +20,9 @@ make tag
 　
 
 ## FizzBuzz
-https://go.dev/play/p/3GXcGBC4vp0
+### Playground
+- 課題：https://go.dev/play/p/3GXcGBC4vp0
+- 回答：https://go.dev/play/p/PYjdYIGZtFT
 ### 動作確認
 ```
 make fizzbuzz
@@ -135,7 +139,10 @@ Buzz
 　
 
 ## 123でビンゴ！
-https://go.dev/play/p/-iQaJfSpK3X
+### Playground
+- 課題：https://go.dev/play/p/-iQaJfSpK3X
+- 回答：https://go.dev/play/p/o5BGnQ3p57E
+
 ### 動作確認
 ```
 make bingo
