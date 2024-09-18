@@ -57,13 +57,22 @@ func main() {
 
 	// rTagsをresourceKey毎のmapに変換
 	resourceMap := make(map[string][]resourceTag)
-	for _, rTag := range rTags {
-		resourceMap[rTag.resourceKey] = append(resourceMap[rTag.resourceKey], rTag)
+	for _, tag := range rTags {
+		resourceMap[tag.resourceKey] = append(resourceMap[tag.resourceKey], tag)
 	}
 
-	// resource型への変換
+	// mapのキーを昇順にソート
+	var rKeys []string
+	for key := range resourceMap {
+		rKeys = append(rKeys, key)
+	}
+	sort.Strings(rKeys)
+
+	// resource型への変換処理
 	var result []resource
-	for key, resources := range resourceMap {
+	for _, key := range rKeys {
+		resources := resourceMap[key]
+
 		// tagKeysの取得
 		var tagKeys []string
 		for _, r := range resources {
