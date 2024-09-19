@@ -22,7 +22,7 @@ make tag
 ## FizzBuzz
 ### Playground
 - 課題：https://go.dev/play/p/3GXcGBC4vp0
-- 回答：https://go.dev/play/p/PYjdYIGZtFT
+- 回答：https://go.dev/play/p/NHfpE85ovUN
 ### 動作確認
 ```
 make fizzbuzz
