@@ -46,7 +46,7 @@ Buzz
 Fizz
 13
 14
-Fizz
+FizzBuzz
 16
 17
 Fizz
@@ -61,7 +61,7 @@ Buzz
 Fizz
 28
 29
-Fizz
+FizzBuzz
 31
 32
 Fizz
@@ -76,7 +76,7 @@ Buzz
 Fizz
 43
 44
-Fizz
+FizzBuzz
 46
 47
 Fizz
@@ -91,7 +91,7 @@ Buzz
 Fizz
 58
 59
-Fizz
+FizzBuzz
 61
 62
 Fizz
@@ -106,7 +106,7 @@ Buzz
 Fizz
 73
 74
-Fizz
+FizzBuzz
 76
 77
 Fizz
@@ -121,7 +121,7 @@ Buzz
 Fizz
 88
 89
-Fizz
+FizzBuzz
 91
 92
 Fizz

@@ -25,13 +25,19 @@ func FizzBuzz(begin, end int64) {
 	}
 
 	var res string
+	/*
+		Fizz, BuzzとFizzBuzzの条件が重複して該当するケースで、出力結果が正しくFizzBuzzとなるように、そのcaseを先頭に配置しておく
+		（先にFizz, Buzzの条件判定を行うと、その時点で該当した場合に自動breakし、FizzBuzzの条件判定を行わないため）
+	*/
 	switch {
+	case begin%3 == 0 && begin%5 == 0:
+		res = "FizzBuzz"
+		// break
+		// Goでは明示的にfallthroughしない限り、caseに該当した時点で自動breakされるため、break無しでも一応OK
 	case begin%3 == 0:
 		res = "Fizz"
 	case begin%5 == 0:
 		res = "Buzz"
-	case begin%3 == 0 && begin%5 == 0:
-		res = "FizzBuzz"
 	default:
 		res = fmt.Sprintf("%d", begin)
 	}
